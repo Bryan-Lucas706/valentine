@@ -1,0 +1,1 @@
+import{l as e,o as t,t as n}from"./index-CQzH-pxC.js";var r={__name:`QuestionLayout`,setup(r){return(r,i)=>(e(),t(n))}};export{r as default};

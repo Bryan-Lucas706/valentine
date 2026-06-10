@@ -1,0 +1,1 @@
+import{l as e,n as t,s as n}from"./index-CQzH-pxC.js";var r={};function i(t,r){return e(),n(`p`,null,`characters`)}var a=t(r,[[`render`,i]]);export{a as default};

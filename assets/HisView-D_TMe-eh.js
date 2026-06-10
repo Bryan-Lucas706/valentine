@@ -1,1 +1,0 @@
-import{c as e,o as t,t as n}from"./index-BgTJkF_j.js";var r={};function i(n,r){return e(),t(`p`,null,`Bryan`)}var a=n(r,[[`render`,i]]);export{a as default};
