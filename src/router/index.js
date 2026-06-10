@@ -1,15 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { useResponseStore } from "@/stores/responseStore";
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    // {
-    //   path: "/question",
-    //   component: () => import("@/Layouts/QuestionLayout.vue")
-    // }
     {
       path: "/valentine/",
-      redirect: "/valentine/her"
+      redirect: "/valentine/question",
+    },
+    {
+      path: "/valentine/question",
+      component: () => import("@/Layouts/QuestionLayout.vue"),
     },
     {
       path: "/valentine/",
@@ -28,21 +29,28 @@ const router = createRouter({
         {
           path: "/valentine/foods",
           name: "foods",
-          component: () => import("@/views/FoodsView.vue")
+          component: () => import("@/views/FoodsView.vue"),
         },
         {
           path: "/valentine/characters",
           name: "characters",
-          component: () => import("@/views/CharactersView.vue")
+          component: () => import("@/views/CharactersView.vue"),
         },
         {
           path: "/valentine/his",
           name: "his",
-          component: () => import("@/views/HisView.vue" )
-        }
+          component: () => import("@/views/HisView.vue"),
+        },
       ],
     },
   ],
 });
-
+beforeEnter: (to, from, next) => {
+  const responseStore = useResponseStore();
+  if (!responseStore.answered) {
+    next("/valentine/question");
+  } else {
+    next();
+  }
+};
 export default router;

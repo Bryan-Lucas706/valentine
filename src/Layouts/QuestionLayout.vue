@@ -1,6 +1,7 @@
-<!-- <template>
-  <div>
-    <p>Question</p>
-  </div>
+<script setup>
+import QuestionView from "@/views/QuestionView.vue";
+</script>
+
+<template>
+    <QuestionView />
 </template>
-<style scoped></style> -->
