@@ -40,7 +40,7 @@ function getRandomTextColor() {
 
 <template>
   <main>
-    <p>Do you wanna <strong>Marry</strong> with me?</p>
+    <p>Você quer <strong>namorar</strong> comigo?</p>
     <div class="buttons-container">
       <button class="yes-btn" @click="handleYes">Sim</button>
       <button
@@ -70,14 +70,15 @@ main {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 0px 10px;
   margin-bottom: 2em;
   text-align: center;
+  font-family: var(--cursive);
 }
 
 strong {
-  color: #ff69b4;
+  color: var(--color-pink);
 }
 
 .buttons-container {
@@ -91,7 +92,7 @@ strong {
 }
 
 .yes-btn {
-  background-color: #ff69b4;
+  background-color: var(--color-pink);
   color: white;
   border: none;
   border-radius: 8px;

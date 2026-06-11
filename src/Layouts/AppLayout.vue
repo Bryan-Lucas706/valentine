@@ -2,7 +2,6 @@
 import Navbar from "@/components/Navbar.vue";
 </script>
 <template>
-  <Navbar />
   <main>
     <RouterView v-slot="{ Component }">
       <transition name="fade" mode="out-in">
@@ -10,6 +9,7 @@ import Navbar from "@/components/Navbar.vue";
       </transition>
     </RouterView>
   </main>
+  <Navbar />
 </template>
 <style scoped>
 /* Global — transição de rota dentro do AppLayout */
@@ -22,4 +22,5 @@ import Navbar from "@/components/Navbar.vue";
 .fade-leave-to {
   opacity: 0;
 }
+
 </style>
