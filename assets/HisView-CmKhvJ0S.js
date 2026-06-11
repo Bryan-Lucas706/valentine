@@ -1,0 +1,1 @@
+import{n as e,s as t,u as n}from"./index-BPos0AfC.js";var r={};function i(e,r){return n(),t(`p`,null,`Bryan`)}var a=e(r,[[`render`,i]]);export{a as default};
