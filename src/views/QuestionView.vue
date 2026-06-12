@@ -40,7 +40,7 @@ function getRandomTextColor() {
 
 <template>
   <main>
-    <p>Você quer <strong>namorar</strong> comigo?</p>
+    <p>Receber carta de <strong>Bryan Lucas?</strong></p>
     <div class="buttons-container">
       <button class="yes-btn" @click="handleYes">Sim</button>
       <button
