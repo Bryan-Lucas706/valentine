@@ -1,6 +1,5 @@
 <script setup>
 import emojis from "@/components/ui/emojis.vue";
-import QuestionView from "./views/QuestionView.vue";
 </script>
 <template>
   <div class="background-app">
@@ -11,9 +10,9 @@ import QuestionView from "./views/QuestionView.vue";
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
 :root {
   --cursive: "Moon Dance";
-
   --color-pink: #ff69b4;
 }
 .background-app {
@@ -26,5 +25,6 @@ import QuestionView from "./views/QuestionView.vue";
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 </style>

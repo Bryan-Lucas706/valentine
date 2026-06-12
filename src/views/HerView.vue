@@ -8,30 +8,32 @@
       <div class="pergunta">
         <h2>Quem ela é?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          aliquid recusandae, eum eius facere eveniet obcaecati ea ipsum velit
-          voluptas porro! Dolores error ipsum debitis temporibus ullam
-          doloremque nihil repellendus!
+          Ela se chama Maria Eduarda pacheco, e aos 15 de idade conheceu o seu
+          verdadeiro amor. Uma mulher tão linda onde não existe palavras que
+          posam descrever tamanha perfeição, ela é doce, meiga, fofa, amorosa,
+          cheirosa, ela é a mulher onde qualquer homem anseia ter.
         </p>
       </div>
 
       <div class="pergunta">
         <h2>O que ela faz?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          voluptatem veritatis, fugit magnam labore vero doloribus excepturi
-          optio debitis modi sunt illo vel totam ullam? Delectus voluptas iste
-          eius quisquam!
+          Ela faz centenas de homens e mulheres ficarem pasmos com sua beleza,
+          conquistando o coração de qualquer todos que apenas olhe para ela. Mas
+          dentre tantas pessoas desejando à ter, há apenas uma pessoa que
+          conseguiu esquentar o coração de gelo dessa morcega.
         </p>
       </div>
 
       <div class="pergunta">
         <h2>O que ela gosta?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          voluptatem veritatis, fugit magnam labore vero doloribus excepturi
-          optio debitis modi sunt illo vel totam ullam? Delectus voluptas iste
-          eius quisquam!
+          Maria Eduarda gosta de muitas coisa, pode-se se dizer que ela é bem
+          "diferente" nas suas paixões, sendo algumas delas: <br>
+          • A musica, tudo mundo gosta de ouvir, mas Maria ama diversos genêros. <br>
+          • A comida, a massa é a principal escolha dela (Contendo bastaste molho). <br>
+          • Os personagens, eles podem ser uma representação da personalidade ou até mesmo a aparência. <br>
+          • E por fim, sua pessoa favorita, sendo Bryan Lucas...
         </p>
       </div>
     </div>
@@ -90,6 +92,7 @@
   border-left: 4px solid var(--color-pink);
   background: rgba(255, 105, 180, 0.05);
   border-radius: 8px;
+  text-align: justify;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -106,7 +109,7 @@
 
   p {
     color: white;
-    line-height: 1.8;
+    line-height: 1.5;
   }
 }
 

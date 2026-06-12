@@ -7,10 +7,10 @@
       <div><i class="fa-solid fa-music"></i></div>
     </RouterLink>
     <RouterLink to="/valentine/foods">
-      <div><i class="fa-regular fa-star"></i></div>
+      <div><i class="fa-solid fa-pizza-slice"></i></div>
     </RouterLink>
     <RouterLink to="/valentine/characters">
-      <div><i class="fa-solid fa-pizza-slice"></i></div>
+      <div><i class="fa-regular fa-star"></i></div>
     </RouterLink>
     <RouterLink to="/valentine/his">
       <div><i class="fa-regular fa-sun"></i></div>
@@ -38,9 +38,9 @@ a {
 div {
   background-color: #de2b66;
   border-radius: 50%;
-  font-size: 0.8em;
-  width: 35px;
-  height: 35px;
+  font-size: 1em;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
