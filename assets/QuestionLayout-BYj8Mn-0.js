@@ -1,1 +1,0 @@
-import{o as e,t,u as n}from"./index-BPos0AfC.js";var r={__name:`QuestionLayout`,setup(r){return(r,i)=>(n(),e(t))}};export{r as default};
